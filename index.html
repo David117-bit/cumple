@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños y 7 Meses de Novios</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Feliz Cumpleaños y <span class="highlight">7 Meses de Novios</span></h1>
+            <p>3 de Julio - Un día para celebrar doblemente nuestro amor</p>
+            <div class="hero-buttons">
+                <a href="#birthday" class="btn">Su Cumpleaños</a>
+                <a href="#anniversary" class="btn btn-secondary">Nuestros 7 Meses</a>
+            </div>
+        </div>
+        <div class="scroll-down" id="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+
+        <!-- Floating elements -->
+        <div class="floating" style="top: 15%; left: 10%; font-size: 4rem; color: rgba(255, 255, 255, 0.3);">❤</div>
+        <div class="floating"
+            style="top: 70%; left: 85%; font-size: 3rem; color: rgba(255, 255, 255, 0.4); animation-delay: 1s;">★</div>
+        <div class="floating"
+            style="top: 40%; left: 5%; font-size: 5rem; color: rgba(255, 255, 255, 0.2); animation-delay: 2s;">✿</div>
+        <div class="floating"
+            style="top: 80%; left: 15%; font-size: 4rem; color: rgba(255, 255, 255, 0.3); animation-delay: 3s;">❀</div>
+    </section>
+
+    <!-- Celebration Section -->
+    <section class="celebration" id="celebration">
+        <div class="container">
+            <h2 class="section-title">Doble Celebración</h2>
+            <div class="celebration-container">
+                <div class="celebration-card" id="birthday">
+                    <div class="celebration-icon">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <h3 class="celebration-title">Feliz Cumpleaños</h3>
+                    <p class="celebration-text">Hoy celebramos el día en que el mundo se llenó de tu luz. Eres la
+                        persona más especial en mi vida y mereces todo lo mejor en tu día.</p>
+                    <div class="celebration-date">3 de Julio</div>
+                    <a href="#birthday-content" class="btn">Ver más</a>
+                </div>
+
+                <div class="celebration-card" id="anniversary">
+                    <div class="celebration-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="celebration-title">7 Meses de Novios</h3>
+                    <p class="celebration-text">Celebramos 7 meses de amor, risas y momentos inolvidables juntos. Cada
+                        día a tu lado es un regalo que atesoro.</p>
+                    <div class="celebration-date">3 de Julio</div>
+                    <a href="#anniversary-content" class="btn btn-secondary">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Birthday Content Section -->
+    <section class="about" id="birthday-content">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Para Ti en Tu Día Especial</h2>
+                    <p>En este día tan importante, quiero recordarte lo increíble que eres. Tu sonrisa ilumina mis días,
+                        tu amor llena mi corazón y tu presencia hace que todo tenga sentido.</p>
+                    <p>Eres esa combinación perfecta de fuerza y dulzura que hace que el mundo sea un lugar mejor. Hoy
+                        celebramos no solo tu nacimiento, sino la bendición de tenerte en nuestras vidas.</p>
+                    <p>Que este nuevo año de vida esté lleno de sueños cumplidos, risas compartidas y amor infinito. Te
+                        mereces toda la felicidad del mundo y haré todo lo posible para ser parte de ella.</p>
+                    <a href="#memories" class="btn">Nuestros Recuerdos</a>
+                </div>
+                <div class="about-image">
+                    <img src="img/1.jpeg" alt="Cumpleaños">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Anniversary Content Section -->
+    <section class="about" id="anniversary-content" style="background-color: white;">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/2.jpeg" alt="Aniversario">
+                </div>
+                <div class="about-text">
+                    <h2>7 Meses Juntos</h2>
+                    <p>7 meses de compartir sueños, risas y momentos inolvidables. Cada día a tu lado refuerza lo
+                        afortunado que soy de tenerte como mi compañera de vida.</p>
+                    <p>Hemos construido tantos recuerdos hermosos en este tiempo, y sé que los que vendrán serán aún
+                        mejores. Eres mi confidente, mi cómplice y mi mayor apoyo.</p>
+                    <p>Celebro estos 7 meses de amor contigo, y espero con ansías todos los meses y años que vendrán. Mi
+                        corazón es tuyo hoy y siempre.</p>
+                    <a href="#timeline" class="btn btn-secondary">Nuestra Historia</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Memories Section -->
+    <section class="memories" id="memories">
+        <div class="container">
+            <h2 class="section-title">Momentos Especiales</h2>
+
+            <div class="memory-tabs">
+                <div class="memory-tab active" data-tab="birthday-memories">Tu</div>
+                <div class="memory-tab" data-tab="anniversary-memories">Con tu familia</div>
+                <div class="memory-tab" data-tab="together-memories">Tu y Yo</div>
+            </div>
+
+            <div class="memory-content active" id="birthday-memories">
+                <div class="memory-grid">
+                    <div class="memory-item">
+                        <div class="memory-image">
+                            <img src="img/3.jpeg" alt="Cumpleaños pasado">
+                        </div>
+                        <div class="memory-details">
+                            <h3 class="memory-title">Pequeñitaa y lindaaa 💖💖</h3>
+                        </div>
+                    </div>
+
+                    <div class="memory-item">
+                        <div class="memory-image">
+                            <img src="img/4.jpeg" alt="Pastel">
+                        </div>
+                        <div class="memory-details">
+                            <h3 class="memory-title">Junioristaaa la niñaa 🤭</h3>
+                        </div>
+                    </div>
+
+                    <div class="memory-item">
+                        <div class="memory-image">
+                            <img src="img/5.jpeg" alt="Regalo">
+                        </div>
+                        <div class="memory-details">
+                            <h3 class="memory-title">Ahora, toda una mujer hermosa y bella 💖</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="memory-content" id="anniversary-memories">
+                <div class="memory-grid">
+                    <div class="memory-item">
+                        <div class="memory-image">
+                            <img src="img/6.jpg" alt="Primer mes">
+                        </div>
+                        <div class="memory-details">
+                            <h3 class="memory-title">Sus viajes :)</h3>
+                        </div>
+                    </div>
+
+                    <div class="memory-item">
+                        <div class="memory-image">
+                            <img src="img/7.jpg" alt="Aniversario">
+                        </div>
+                        <div class="memory-details">
+                            <h3 class="memory-title">Juntos y unidos <3 </h3>
+                        </div>
+                    </div>
+
+                    <div class="memory-item">
+                        <div class="memory-image">
+                            <img src="img/8.jpg" alt="Aventura">
+                        </div>
+                        <div class="memory-details">
+                            <h3 class="memory-title">El cariño de todos unos a otros ☺</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="memory-content" id="together-memories">
+                <div class="memory-grid">
+                    <div class="memory-item">
+                        <div class="memory-image">
+                            <img src="img/9.jpeg" alt="Primer encuentro">
+                        </div>
+                        <div class="memory-details">
+                            <h3 class="memory-title">Lo mas lindo es tenerte conmigo 💖</h3>
+                        </div>
+                    </div>
+
+                    <div class="memory-item">
+                        <div class="memory-image">
+                            <img src="img/10.jpeg" alt="Primera cita">
+                        </div>
+                        <div class="memory-details">
+                            <h3 class="memory-title">Contigo siempre soy feliz y tu me haces feliz como yo quiero
+                                hacerte feliz💖</h3>
+                        </div>
+                    </div>
+
+                    <div class="memory-item">
+                        <div class="memory-image">
+                            <img src="img/11.jpeg" alt="Atardecer">
+                        </div>
+                        <div class="memory-details">
+                            <h3 class="memory-title">Te amooooooooooooo , gracias por todo amoor 💖💖💖</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline" id="timeline">
+        <div class="container">
+            <h2 class="section-title">Nuestros Momentos </h2>
+
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Mi oficial al mando 💖</h3>
+                        <div class="timeline-image">
+                            <img src="img/12.jpg" alt="Primer encuentro">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Creo que soy bonito JAJAJA</h3>
+                        <div class="timeline-image">
+                            <img src="img/13.jpg" alt="Primera cita">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Una hermosa salida de muchas (disculpa si no hemos salido :c)</h3>
+                        <div class="timeline-image">
+                            <img src="img/14.jpg" alt="Inicio relación">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Animando una seleccion que no sirve :D</h3>
+                        <div class="timeline-image">
+                            <img src="img/15.jpg" alt="Primer mes">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Te amo cosita bella muak 💖</h3>
+                        <div class="timeline-image">
+                            <img src="img/17.jpg" alt="Navidad">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Reasons Section -->
+    <section class="reasons" id="reasons">
+        <div class="container">
+            <h2 class="section-title">Mil Razones para Amarte</h2>
+            <div class="reasons-container">
+                <div class="reason-card">
+                    <div class="reason-number">1</div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Tu Sonrisa</h3>
+                        <p class="reason-text">La forma en que ilumina incluso los días más oscuros, como un rayo de sol
+                            que calienta mi corazón.</p>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-number">2</div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Tu Risa</h3>
+                        <p class="reason-text">Contagiosa y genuina, es la melodía más hermosa que he escuchado en mi
+                            vida.</p>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-number">3</div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Tu Corazón</h3>
+                        <p class="reason-text">Generoso y lleno de amor, siempre pensando en los demás antes que en ti
+                            misma.</p>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-number">4</div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Tu Comprensión</h3>
+                        <p class="reason-text">Cómo me entiendes sin necesidad de palabras, como si pudieras leer mi
+                            alma.</p>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-number">5</div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Tu Paciencia</h3>
+                        <p class="reason-text">Infinita con mis locuras y errores, siempre dándome otra oportunidad.</p>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-number">6</div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Tu Aventura</h3>
+                        <p class="reason-text">Cada día a tu lado es una nueva aventura, llena de sorpresas y momentos
+                            inolvidables.</p>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-number">7</div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Tu Mirada</h3>
+                        <p class="reason-text">Especialmente cuando crees que no me doy cuenta, llena de amor y
+                            complicidad.</p>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-number">8</div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Tu Hogar</h3>
+                        <p class="reason-text">Cómo haces que cualquier lugar se sienta como nuestro refugio, lleno de
+                            amor y paz.</p>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-number">9</div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Tu Inteligencia</h3>
+                        <p class="reason-text">Que me inspira cada día a ser mejor, a aprender más y a crecer a tu lado.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-number">10</div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Tu Valentía</h3>
+                        <p class="reason-text">Para enfrentar cualquier desafío, demostrándome que juntos podemos con
+                            todo.</p>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-number">11</div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Tu Originalidad</h3>
+                        <p class="reason-text">Tu forma única de ver el mundo, que me enseña nuevas perspectivas cada
+                            día.</p>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-number">12</div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Tu Amor</h3>
+                        <p class="reason-text">Incondicional y puro, que me hace sentir el ser humano más afortunado del
+                            mundo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown" id="countdown">
+        <div class="container">
+            <h2 class="section-title">Nuestro Tiempo Juntos</h2>
+            <div class="countdown-container">
+                <div class="countdown-box">
+                    <div class="countdown-number" id="months-together">7</div>
+                    <div class="countdown-label">Meses</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="countdown-number" id="days-together">0</div>
+                    <div class="countdown-label">Días</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="countdown-number" id="hours-together">0</div>
+                    <div class="countdown-label">Horas</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="countdown-number" id="minutes-together">0</div>
+                    <div class="countdown-label">Minutos</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="countdown-number" id="seconds-together">0</div>
+                    <div class="countdown-label">Segundos</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Letter Section -->
+    <section class="letter" id="letter">
+        <div class="container">
+            <h2 class="section-title">Mi Carta Para Ti</h2>
+            <div class="letter-container">
+                <div class="letter-content">
+                    <p>Mi amor,</p>
+
+                    <p>En este día tan especial, donde celebramos tu cumpleaños y nuestros 7 meses de novios, quiero
+                        tomarme un momento para expresarte todo lo que siento.</p>
+
+                    <p>Desde que llegaste a mi vida, todo cobró un nuevo sentido. Tu amor ha sido el faro que ilumina
+                        mis días, la fuerza que me impulsa a ser mejor y el refugio donde encuentro paz. Eres mi
+                        confidente, mi cómplice en todas las locuras y la persona que más me hace reír en este mundo.
+                    </p>
+
+                    <p>En tu cumpleaños, quiero recordarte lo increíblemente especial que eres. Tu bondad, tu
+                        inteligencia, tu pasión por la vida y esa risa contagiosa que ilumina cualquier lugar. Eres un
+                        regalo del universo que atesoro cada día.</p>
+
+                    <p>Y en nuestros 7 meses de novios, quiero renovar mis promesas: estaré a tu lado en cada paso del
+                        camino, celebrando tus triunfos, apoyándote en los desafíos y amándote con todo mi corazón. Cada
+                        día a tu lado es una aventura que no cambiaría por nada.</p>
+
+                    <p>Que este nuevo año de vida esté lleno de sueños cumplidos, risas compartidas y amor infinito. Y
+                        que nuestro amor siga creciendo con cada mes que pasa, hasta convertirnos en esa pareja de
+                        viejitos que sigue riendo y amándose como el primer día.</p>
+
+                    <p>Feliz cumpleaños, felices 7 meses, y gracias por ser tú.</p>
+
+                    <div class="letter-signature">
+                        <p>Con todo mi amor,</p>
+                        <div class="signature-name">[David para ti amor <3]</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Nuestra Galería de Amor</h2>
+            <div class="gallery-container">
+                <div class="gallery-item gallery-item-large">
+                    <img src="img/16.jpeg"
+                        alt="Foto 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/18.jpeg"
+                        alt="Foto 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/19.jpeg"
+                        alt="Foto 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/20.jpeg"
+                        alt="Foto 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/21.jpeg"
+                        alt="Foto 5">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/22.jpeg"
+                        alt="Foto 6">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/23.jpeg"
+                        alt="Foto 7">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Section -->
+    <section class="interactive" id="interactive">
+        <div class="container">
+            <div class="interactive-container">
+                <h2 class="interactive-title">Un Detalle Especial</h2>
+                <p class="interactive-text">Haz clic en el botón para descubrir un mensaje especial que preparé solo
+                    para ti en este día doblemente especial.</p>
+
+                <div class="interactive-buttons">
+                    <button class="btn" id="birthday-btn">Mensaje de Cumpleaños</button>
+                    <button class="btn btn-secondary" id="anniversary-btn">Mensaje de 7 Meses</button>
+                </div>
+
+                <div class="interactive-result" id="interactive-result"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="heart-beat">❤</div>
+                <h2 class="footer-title">Feliz Cumpleaños y 7 Meses de Novios</h2>
+                <p class="footer-text">Que este 3 de julio sea el comienzo de un año maravilloso para ti y otro mes más
+                    de nuestro amor que crece cada día.</p>
+                <div class="footer-date">3 de Julio, 2025</div>
+            </div>
+        </div>
+    </footer>
+
+
+<audio autoplay loop>
+  <source src="cancion/Aprender a quererte- Morat (Letra).mp3" type="audio/mp3">
+</audio>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
