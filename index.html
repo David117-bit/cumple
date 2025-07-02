@@ -529,9 +529,21 @@
     </footer>
 
 
-<audio autoplay loop>
+<audio id="bg-music" loop>
   <source src="cancion/Aprender a quererte- Morat (Letra).mp3" type="audio/mp3">
 </audio>
+
+<script>
+  const music = document.getElementById("bg-music");
+
+  function startMusicOnce() {
+    music.play();
+    document.removeEventListener("click", startMusicOnce); // Evita que vuelva a intentar
+  }
+
+  document.addEventListener("click", startMusicOnce);
+</script>
+
 
 
     <script src="script.js"></script>
